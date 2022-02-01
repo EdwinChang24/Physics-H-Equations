@@ -1,6 +1,10 @@
 \documentclass[12pt]{article}
 \usepackage{amsmath}
+\usepackage{array}
+\newcolumntype{C}{>{$}c<{$}}
 \usepackage[margin=1in]{geometry}
+\usepackage{titling}
+\setlength{\droptitle}{-1in}
 
 \title{Physics Honors Equations Sheet - Lundy}
 \author{Created by Edwin Chang}
@@ -18,18 +22,20 @@ Useful equations:
 \begin{center}
 \begingroup
 \setlength{\tabcolsep}{16pt} % spacing between columns
-\renewcommand{\arraystretch}{2.25} % spacing between rows
-\begin{tabular}{ c c c }
-    $V_f = V_i + at$ & $V_{av} = \frac{\triangle x}{t}$ & $V_{av} = \frac{V_i + V_f}{2}$ \\
-    $a = \frac{V_f - V_i}{t}$ & $\triangle x = \frac{1}{2}a{t^2} + V_{i}t$ & $V_{f}^{2} = V_{i}^{2} + 2a\triangle x$ \\
-    $V_{ix} = \cos{\theta} \cdot V_i$ & $V_{iy} = \sin{\theta} \cdot V_i$ \\
-    $\triangle x_x = V_x \cdot t$ & $\triangle x_y = \frac{1}{2} a_{y}{t^2} + V_{iy}t$ & $\triangle x = -\frac{\sin{(2\theta)} \cdot {V_{i}^2}}{a}$ \\
-    $|F_{sf}|=\mu_{s}\cdot|F_{n}|$ & $|F_{kf}|=\mu_{k}\cdot|F_{n}|$ \\
-    $F=ma$ & $F_t=mg+ma$ \\
-    $\text{GPE}=mgh$ & $\text{EPE}=\frac{1}{2}k{x^2}$ & $\text{KE}=\frac{1}{2}m{V^2}$ \\
-    $W=Fd\cos{\theta}$ & $W=\text{KE}_{f}-\text{KE}_0$ \\
-    $P=\frac{W}{t}$ & $P=\frac{\triangle E}{t}$ & $P=F\cdot{V_{av}}$ \\
-    $p=m\cdot v$ & $m_{i_1}V_{i_1} + m_{i_2}V_{i_2} = (m_1 + m_2)V_f$ & $J=\triangle p=m\cdot\triangle V=F\cdot t$
+\renewcommand{\arraystretch}{2} % spacing between rows
+\begin{tabular}{ C C C }
+    V_f = V_i + at & V_{\text{av}} = \frac{\triangle x}{t} & V_{\text{av}} = \frac{V_i + V_f}{2} \\
+    a = \frac{V_f - V_i}{t} & \triangle x = \frac{1}{2}a{t^2} + V_{i}t & V_{f}^{2} = V_{i}^{2} + 2a\triangle x \\
+    V_{ix} = \cos{\theta} \cdot V_i & V_{iy} = \sin{\theta} \cdot V_i \\
+    \triangle x_x = V_x \cdot t & \triangle x_y = \frac{1}{2} a_{y}{t^2} + V_{iy}t & \triangle x = -\frac{\sin{(2\theta)} \cdot {V_{i}^2}}{a} \\
+    |F_{sf}|=\mu_{s}\cdot|F_{n}| & |F_{kf}|=\mu_{k}\cdot|F_{n}| \\
+    F=ma & F_t=mg+ma \\
+    \text{GPE}=mgh & \text{EPE}=\frac{1}{2}k{x^2} & \text{KE}=\frac{1}{2}m{V^2} \\
+    W=Fd\cos{\theta} & W=\text{KE}_{f}-\text{KE}_0 \\
+    P=\frac{W}{t} & P=\frac{\triangle E}{t} & P=F\cdot{V_{\text{av}}} \\
+    p=m\cdot v & m_{i_1}V_{i_1} + m_{i_2}V_{i_2} = (m_1 + m_2)V_f & J=\triangle p=m\cdot\triangle V=F\cdot t \\
+    \omega_{\text{av}}=\frac{\theta}{t} & \alpha=\frac{\omega_{f}-\omega_i}{t} \\
+    \theta=\frac{1}{2}\alpha t^{2}+\omega_{i}t & \omega_{f}^{2}=\omega_{i}^{2}+2\alpha\theta & \omega_{\text{av}}=\frac{\omega_{i}+\omega_{f}}{2}
 \end{tabular}
 \endgroup
 \end{center}
